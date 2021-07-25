@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            YTC
+        </title>
+        <link rel="stylesheet" type="text/css" href="css_index.css">
+        <link rel = "icon"  href="icons/camping-tent.png" type = "image/x-icon"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    </head>
+    <body>   
+       
+        <nav class="menu">
+              <div class="ytc_title">
+                    <span class="ytc_title_content"><H2> YOUTH TREKKING & CAMPING </H2></span>
+                    <span class="ytc_title_content"><H2> +91 9876543210</H2></span>     
+                   
+                </div>
+             <hr color="white" width="100%" size="0.025pt" align="center">  
+            <ol>
+                <li class="menu-item"><a href="index.html"><img src="icons/icon_menu_home.png" style="height: 25%; width: 25%;">  Home</a></li>
+                <li class="menu-item"><a href="aboutus.html"><img src="icons/icon_menu_aboutus.png" style="height: 25%; width: 25%;">  About Us</a></li>
+                 <li class="menu-item">
+                  <a href="ouractivities.html"><img src="icons/icon_menu_activities.png" style="height: 25%; width: 25%;">  Our Activities</a>
+                  <ol class="sub-menu">
+                    <li class="menu-item"><a href="ouractivities.html#camping">Camping</a></li>
+                    <li class="menu-item"><a href="ouractivities.html#bonfire">Bonfire</a></li>
+                    <li class="menu-item"><a href="ouractivities.html#jeepsafari">Safari</a></li>
+                    <li class="menu-item"><a href="ouractivities.html#rafting">Rafting</a></li>
+                    <li class="menu-item"><a href="ouractivities.html#mountbiking">Biking</a></li>
+                    <li class="menu-item"><a href="ouractivities.html#scubadiving">Scuba-Diving</a></li>
+                    <li class="menu-item"><a href="ouractivities.html#junglestay">Forest Stay</a></li>
+                    <li class="menu-item"><a href="ouractivities.html#paragliding">Paragliding</a></li>
+                  </ol>
+                </li>
+                <li class="menu-item">
+                  <a href="ourcamps.html"><img src="icons/icon_menu_trips.png" style="height: 25%; width: 25%;">  Our Camps</a>
+                  <ol class="sub-menu">
+                    <li class="menu-item"><a href="ourcamps.html#camp_forest">Forest Camp</a></li>
+                    <li class="menu-item"><a href="ourcamps.html#camp_farm">Farm Camp</a></li>
+                    <li class="menu-item"><a href="ourcamps.html#camp_beach">Beach Camp</a></li>
+                     <li class="menu-item"><a href="ourcamps.html#camp_mountain">Mountain Camp</a></li>
+                  </ol>
+                </li>
+                <li class="menu-item"><a href="blog.html"><img src="icons/icon_menu_blog.png" style="height: 25%; width: 25%;">Blog</a></li>
+                <li class="menu-item"><a href="gallery.html"><img src="icons/icon_menu_gallery.png" style="height: 25%; width: 25%;">Gallery</a></li>
+                <li class="menu-item">
+                <div class="loginbutton">
+                    <div class="loginbuttoncenter">
+                        <button class="btn">
+                            <span><a herf="signin.html">SIGN IN</a></span>
+                        </button>
+                    </div>
+                </div>
+                </li>
+            </ol>     
+        </nav>
+        <hr color="white" width="100%" size="0.025pt" align="center">   
+       
+        <main class ="banner">
+            
+            <div class="middle">
+             <!--explore the nature, id="logo" -->
+                <svg id="logo" width="373" height="119" viewBox="0 0 573 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M118.503 11.192V33.56H142.887V40.76H118.503V63.8H145.767V71H109.767V3.99201H145.767V11.192H118.503Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M186.346 37.592L206.89 71H197.002L180.97 44.888L165.706 71H156.01L176.458 37.592L155.914 4.08801H165.706L181.834 30.296L197.194 4.08801H206.986L186.346 37.592Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M263.347 23.672C263.347 29.24 261.427 33.88 257.587 37.592C253.811 41.24 248.019 43.064 240.211 43.064H227.347V71H218.611V4.08801H240.211C247.763 4.08801 253.491 5.91201 257.395 9.56001C261.363 13.208 263.347 17.912 263.347 23.672ZM240.211 35.864C245.075 35.864 248.659 34.808 250.963 32.696C253.267 30.584 254.419 27.576 254.419 23.672C254.419 15.416 249.683 11.288 240.211 11.288H227.347V35.864H240.211Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M282.94 63.896H306.365V71H274.204V4.08801H282.94V63.896Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M345.978 71.672C339.77 71.672 334.106 70.232 328.986 67.352C323.866 64.408 319.802 60.344 316.794 55.16C313.85 49.912 312.378 44.024 312.378 37.496C312.378 30.968 313.85 25.112 316.794 19.928C319.802 14.68 323.866 10.616 328.986 7.73601C334.106 4.79201 339.77 3.32001 345.978 3.32001C352.25 3.32001 357.946 4.79201 363.066 7.73601C368.186 10.616 372.218 14.648 375.162 19.832C378.106 25.016 379.578 30.904 379.578 37.496C379.578 44.088 378.106 49.976 375.162 55.16C372.218 60.344 368.186 64.408 363.066 67.352C357.946 70.232 352.25 71.672 345.978 71.672ZM345.978 64.088C350.65 64.088 354.842 63 358.554 60.824C362.33 58.648 365.274 55.544 367.386 51.512C369.562 47.48 370.65 42.808 370.65 37.496C370.65 32.12 369.562 27.448 367.386 23.48C365.274 19.448 362.362 16.344 358.65 14.168C354.938 11.992 350.714 10.904 345.978 10.904C341.242 10.904 337.018 11.992 333.306 14.168C329.594 16.344 326.65 19.448 324.474 23.48C322.362 27.448 321.306 32.12 321.306 37.496C321.306 42.808 322.362 47.48 324.474 51.512C326.65 55.544 329.594 58.648 333.306 60.824C337.082 63 341.306 64.088 345.978 64.088Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M426.343 71L410.407 43.64H399.847V71H391.111V4.08801H412.711C417.767 4.08801 422.023 4.95201 425.479 6.68001C428.999 8.40801 431.623 10.744 433.351 13.688C435.079 16.632 435.943 19.992 435.943 23.768C435.943 28.376 434.599 32.44 431.911 35.96C429.287 39.48 425.319 41.816 420.007 42.968L436.807 71H426.343ZM399.847 36.632H412.711C417.447 36.632 420.999 35.48 423.367 33.176C425.735 30.808 426.919 27.672 426.919 23.768C426.919 19.8 425.735 16.728 423.367 14.552C421.063 12.376 417.511 11.288 412.711 11.288H399.847V36.632Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M458.253 11.192V33.56H482.637V40.76H458.253V63.8H485.517V71H449.517V3.99201H485.517V11.192H458.253Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M48.576 148.088V155.192H30.336V215H21.6V155.192H3.26401V148.088H48.576Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M110.882 148.088V215H102.146V184.664H68.0655V215H59.3295V148.088H68.0655V177.464H102.146V148.088H110.882Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M134.534 155.192V177.56H158.918V184.76H134.534V207.8H161.798V215H125.798V147.992H161.798V155.192H134.534Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M278.812 215H270.077L234.941 161.72V215H226.204V147.992H234.941L270.077 201.176V147.992H278.812V215Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M333.257 200.12H304.073L298.697 215H289.48L313.673 148.472H323.753L347.849 215H338.633L333.257 200.12ZM330.76 193.016L318.664 159.224L306.569 193.016H330.76Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M399.576 148.088V155.192H381.336V215H372.6V155.192H354.264V148.088H399.576Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M418.874 148.088V190.424C418.874 196.376 420.314 200.792 423.194 203.672C426.138 206.552 430.201 207.992 435.385 207.992C440.505 207.992 444.505 206.552 447.385 203.672C450.329 200.792 451.802 196.376 451.802 190.424V148.088H460.538V190.328C460.538 195.896 459.417 200.6 457.177 204.44C454.937 208.216 451.897 211.032 448.057 212.888C444.281 214.744 440.025 215.672 435.289 215.672C430.553 215.672 426.266 214.744 422.426 212.888C418.65 211.032 415.641 208.216 413.401 204.44C411.225 200.6 410.138 195.896 410.138 190.328V148.088H418.874Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M510.343 215L494.407 187.64H483.847V215H475.111V148.088H496.711C501.767 148.088 506.023 148.952 509.479 150.68C512.999 152.408 515.623 154.744 517.351 157.688C519.079 160.632 519.943 163.992 519.943 167.768C519.943 172.376 518.599 176.44 515.911 179.96C513.287 183.48 509.319 185.816 504.007 186.968L520.807 215H510.343ZM483.847 180.632H496.711C501.447 180.632 504.999 179.48 507.367 177.176C509.735 174.808 510.919 171.672 510.919 167.768C510.919 163.8 509.735 160.728 507.367 158.552C505.063 156.376 501.511 155.288 496.711 155.288H483.847V180.632Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                    <path d="M542.253 155.192V177.56H566.637V184.76H542.253V207.8H569.517V215H533.517V147.992H569.517V155.192H542.253Z" stroke="#FFFF00" stroke-width="6" mask="url(#path-1-outside-1)"/>
+                </svg>
+            </div>
+            <div class="clouds">                
+                <img src="icons/cloud3.png" style="--i:3;">
+                <img src="icons/cloud1.png" style="--i:1;">                
+                <img src="icons/cloud4.png" style="--i:4;">
+                <img src="icons/cloud3.png" style="--i:3;">
+                <img src="icons/cloud4.png" style="--i:4;">
+                <img src="icons/cloud1.png" style="--i:1;">
+            </div>     
+        
+        </main>         
+
+        <div class="parallax"></div>  
+        
+        <section class="who_are_we">
+            <section class="who_are_we_about">
+                <div class="who_are_we_heading">
+                    <div class="who_are_we_title">
+                        WHO ARE WE?
+                        <img src="icons/icon_menu_aboutus.png">
+                        <br>
+                    </div>   
+                </div>
+                <br><br>
+                <p class="who_are_we_content">
+                        YTC offers a wide range of outdoor pursuits including Trekking, Mountaineering, Swimming, etc. With us, you'll crisscross dense forests, lush valleys, high altitude cold deserts, get off the beaten track, participate in adventure sports activities and much more fun!
+                </p>
+                <br><br><br><br>
+                <div class="explore">
+                    <span class="wrapper">
+                        <div class="link_wrapper">
+                            <a href="aboutus.html">About Us</a>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                                    <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </span>    
+                </div>
+                
+            </section>
+            
+            <div class="who_are_we_animation" align="right" padding-right="20px" height=50%>
+            
+                <div class="slideshow1">
+
+                    <div class="mySlides1 fade">                        
+                        <div class="caption1">Camping</div>
+                        <img src="icons/activity_camping.jpg">
+                        <div class="numbertext1">&lt 1 / 8 &gt</div>
+                        <br>
+                    </div>
+
+                    <div class="mySlides1 fade">                         
+                      <div class="caption1">Bonfire</div>
+                        <img src="icons/activity_bonfire.jpg">
+                        <div class="numbertext1">&lt 2 / 8 &gt</div>
+                        <br>
+                    </div>
+
+                    <div class="mySlides1 fade">                         
+                      <div class="caption1">Hiking</div>
+                        <img src="icons/activity_hiking.jpg">
+                        <div class="numbertext1">&lt 3 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides1 fade">
+                        <div class="caption1">Rafting</div>       
+                      <img src="icons/activity_rafting.jpg">
+                      <div class="numbertext1">&lt 4 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides1 fade">
+                      
+                      <div class="caption1">Biking</div>
+                        <img src="icons/activity_biking.jpg">
+                      <div class="numbertext1">&lt 5 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides1 fade">            
+                        <div class="caption1">Scuba-diving</div>
+                      <img src="icons/activity_scubadiving.jpg">
+                        <div class="numbertext1">&lt 6 / 8 &gt</div>                      
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides1 fade">                      
+                      <div class="caption1">Forest walks</div>
+                        <img src="icons/activity_forestwalk.jpg">
+                        <div class="numbertext1">&lt 7 / 8 &gt</div>         
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides1 fade">            
+                        <div class="caption1">Paragliding</div>
+                      <img src="icons/activity_paragliding.jpg">
+                        <div class="numbertext1">&lt 8 / 8 &gt</div>                      
+                        <br>
+                    </div>
+                    
+                    <div class="dots1" style="text-align:center">
+                        <span class="dot1"></span> 
+                        <span class="dot1"></span> 
+                        <span class="dot1"></span> 
+                        <span class="dot1"></span>               
+                        <span class="dot1"></span> 
+                        <span class="dot1"></span>               
+                        <span class="dot1"></span> 
+                        <span class="dot1"></span> 
+                    </div>
+
+                </div>
+                
+                <br>
+
+                <script>
+                    var slideIndex1 = 0;
+                    showSlides1();
+                    function showSlides1() {
+                        var i1;
+                        var slides1 = document.getElementsByClassName("mySlides1");
+                        var dots1 = document.getElementsByClassName("dot1");
+                        for (i1 = 0; i1 < slides1.length; i1++) {
+                            slides1[i1].style.display = "none";  
+                        }
+                        slideIndex1++;
+                        if (slideIndex1 > slides1.length) {
+                            slideIndex1 = 1
+                        }    
+                        for (i1 = 0; i1 < dots1.length; i1++) {
+                            dots1[i1].className = dots1[i1].className.replace(" active", "");
+                        }
+                        slides1[slideIndex1-1].style.display = "block";  
+                        dots1[slideIndex1-1].className += " active";
+                        setTimeout(showSlides1, 1500); // Change image every 2 seconds
+                    }
+                </script>                    
+            </div>
+        </section>  
+        
+        <div class="parallax"></div>
+
+        <section class="what_do_we_do"> 
+            
+            <div class="what_do_we_do_animation" align="right" padding-right="20px" height=50%>
+            
+                <div class="slideshow2">
+
+                    <div class="mySlides2 fade">                        
+                        <div class="caption2">Camping</div>
+                        <img src="icons/activity_camping.jpg">
+                        <div class="numbertext2">&lt 1 / 8 &gt</div>
+                        <br>
+                    </div>
+
+                    <div class="mySlides2 fade">                         
+                      <div class="caption2">Bonfire</div>
+                        <img src="icons/activity_bonfire.jpg">
+                        <div class="numbertext2">&lt 2 / 8 &gt</div>
+                        <br>
+                    </div>
+
+                    <div class="mySlides2 fade">                         
+                      <div class="caption2">Hiking</div>
+                        <img src="icons/activity_hiking.jpg">
+                        <div class="numbertext2">&lt 3 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides2 fade">
+                        <div class="caption2">Rafting</div>               
+                      <img src="icons/activity_rafting.jpg">
+                      <div class="numbertext2">&lt 4 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides2 fade">
+                      
+                      <div class="caption2">Biking</div>
+                        <img src="icons/activity_biking.jpg">
+                      <div class="numbertext2">&lt 5 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides2 fade">            
+                        <div class="caption2">Scuba-diving</div>
+                      <img src="icons/activity_scubadiving.jpg">
+                        <div class="numbertext2">&lt 6 / 8 &gt</div>                      
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides2 fade">                      
+                      <div class="caption2">Forest walks</div>
+                        <img src="icons/activity_forestwalk.jpg">
+                        <div class="numbertext2">&lt 7 / 8 &gt</div>         
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides2 fade">            
+                        <div class="caption2">Paragliding</div>
+                      <img src="icons/activity_paragliding.jpg">
+                        <div class="numbertext2">&lt 8 / 8 &gt</div>                      
+                        <br>
+                    </div>
+                    
+                    <div class="dots2" style="text-align:center">
+                        <span class="dot2"></span> 
+                        <span class="dot2"></span> 
+                        <span class="dot2"></span> 
+                        <span class="dot2"></span>               
+                        <span class="dot2"></span> 
+                        <span class="dot2"></span>               
+                        <span class="dot2"></span> 
+                        <span class="dot2"></span> 
+                    </div>
+
+                </div>
+                
+                <br>
+
+                <script>
+                    var slideIndex2 = 0;
+                    showSlides2();
+                    function showSlides2() {
+                        var i2;
+                        var slides2 = document.getElementsByClassName("mySlides2");
+                        var dots2 = document.getElementsByClassName("dot2");
+                        for (i2 = 0; i2 < slides2.length; i2++) {
+                            slides2[i2].style.display = "none";  
+                        }
+                        slideIndex2++;
+                        if (slideIndex2 > slides2.length) {
+                            slideIndex2 = 1
+                        }    
+                        for (i2 = 0; i2 < dots2.length; i2++) {
+                            dots2[i2].className = dots2[i2].className.replace(" active", "");
+                        }
+                        slides2[slideIndex2-1].style.display = "block";  
+                        dots2[slideIndex2-1].className += " active";
+                        setTimeout(showSlides2, 1500); // Change image every 2 seconds
+                    }
+                </script>                        
+            </div>
+            
+            <section class="what_do_we_do_about">
+                <div class="what_do_we_do_heading">
+                    <div class="what_do_we_do_title">
+                        WHAT DO WE DO?
+                        <img src="icons/icon_menu_activities.png">
+                        <br>  
+                    </div>
+                </div>
+                <br><br>
+                  <p class="what_do_we_do_content">
+                        YTC offers a wide range of outdoor pursuits including Trekking, Mountaineering, Swimming, etc. With us, you'll crisscross dense forests, lush valleys, high altitude cold deserts, get off the beaten track, participate in adventure sports activities and much more fun!
+                </p>
+                <br><br><br><br>
+                <div class="explore">
+                    <span class="wrapper">
+                        <div class="link_wrapper">
+                            <a href="ouractivities.html">Our Activities</a>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                                    <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </span>    
+                </div>
+                
+            </section>
+            
+        </section>  
+                
+        <div class="parallax"></div>
+        
+        <section class="what_happens_here"> 
+            <section class="what_happens_here_about">
+                <div class="what_happens_here_heading">
+                    <div class="what_happens_here_title">
+                        WHAT HAPPENS HERE?
+                        <img src="icons/icon_menu_trips.png">
+                        <br>   
+                    </div>
+                </div>
+                <br><br>
+                  <p class="what_happens_here_content">
+                        You can enjoy the deep forest camping, stay with tribals, road jeep ride trips, jungle safaris, and peak climbing expeditions. Join in the community where travel explorers and tour guides teach you how to indulge in the mind-blowing adventure!
+                </p>
+                <br><br><br><br>
+                <div class="explore">
+                    <span class="wrapper">
+                        <div class="link_wrapper">
+                            <a href="ourcamps.html">Our Camps</a>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                                    <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </span>    
+                </div>
+                
+            </section>
+            <div class="what_happens_here_animation" align="right" padding-right="20px" height=50%>
+            
+                <div class="slideshow3">
+                    <div class="mySlides3 fade">                 
+                        <div class="caption3">Camping</div>
+                        <img src="icons/activity_camping.jpg">
+                        <div class="numbertext3">&lt 1 / 8 &gt</div>
+                        <br>
+                    </div>
+
+                    <div class="mySlides3 fade">                         
+                      <div class="caption3">Bonfire</div>
+                        <img src="icons/activity_bonfire.jpg">
+                        <div class="numbertext3">&lt 2 / 8 &gt</div>
+                        <br>
+                    </div>
+
+                    <div class="mySlides3 fade">                 
+                      <div class="caption3">Hiking</div>
+                        <img src="icons/activity_hiking.jpg">
+                        <div class="numbertext3">&lt 3 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides3 fade">
+                        <div class="caption3">Rafting</div>       
+                      <img src="icons/activity_rafting.jpg">
+                      <div class="numbertext3">&lt 4 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides3 fade">
+                      <div class="caption3">Biking</div>
+                        <img src="icons/activity_biking.jpg">
+                      <div class="numbertext3">&lt 5 / 8 &gt</div>
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides3 fade">            
+                        <div class="caption3">Scuba-diving</div>
+                      <img src="icons/activity_scubadiving.jpg">
+                        <div class="numbertext3">&lt 6 / 8 &gt</div>                      
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides3 fade">                 
+                      <div class="caption3">Forest walks</div>
+                        <img src="icons/activity_forestwalk.jpg">
+                        <div class="numbertext3">&lt 7 / 8 &gt</div>         
+                        <br>
+                    </div>
+                    
+                    <div class="mySlides3 fade">            
+                        <div class="caption3">Paragliding</div>
+                      <img src="icons/activity_paragliding.jpg">
+                        <div class="numbertext3">&lt 8 / 8 &gt</div>                      
+                        <br>
+                    </div>
+                    
+                    <div class="dots3" style="text-align:center">
+                        <span class="dot3"></span> 
+                        <span class="dot3"></span> 
+                        <span class="dot3"></span> 
+                        <span class="dot3"></span>               
+                        <span class="dot3"></span> 
+                        <span class="dot3"></span>               
+                        <span class="dot3"></span> 
+                        <span class="dot3"></span> 
+                    </div>
+
+                </div>
+                
+                <br>
+
+                <script>
+                    var slideIndex3 = 0;
+                    showSlides3();
+                    function showSlides3() {
+                        var i3;
+                        var slides3 = document.getElementsByClassName("mySlides3");
+                        var dots3 = document.getElementsByClassName("dot3");
+                        for (i3 = 0; i3 < slides3.length; i3++) {
+                            slides3[i3].style.display = "none";  
+                        }
+                        slideIndex3++;
+                        if (slideIndex3 > slides3.length) {
+                            slideIndex3 = 1
+                        }    
+                        for (i3 = 0; i3 < dots3.length; i3++) {
+                            dots3[i3].className = dots3[i3].className.replace(" active", "");
+                        }
+                        slides3[slideIndex3-1].style.display = "block";  
+                        dots3[slideIndex3-1].className += " active";
+                        setTimeout(showSlides3, 1500); // Change image every 2 seconds
+                    }
+                </script>                    
+            </div>
+        </section>  
+        
+        <!--<div class="parallax"></div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="icons/img_nature_wide.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="icons/img_snow_wide.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="icons/img_mountains_wide.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+            -->
+            <div class="parallax"></div>
+            <section class="what_happens_here">                
+                <div class="what_happens_here_animation" align="right" padding-right="20px" height=50% >
+                
+                    <div class="slideshow-container">
+
+                        <div class="mySlides">
+                            <div class="reviewer">
+                                <img src="icons/img_avatar.png" alt="Avatar" class="avatar">Lipi, Chennai, India  
+                            </div>
+                          <br>
+                          <q>It's not a just team, they help to create new world for ur best experience.. Loved it, with my friends....Awesome TEAM,... Will rock and will grow together.</q>
+                          
+                        </div>
+                        
+                        <div class="mySlides">
+                            <div class="reviewer">
+                                <img src="icons/img_avatar2.png" alt="Avatar" class="avatar">Swetha, UP, India 
+                            </div>
+                          <br>                            
+                              <q> Thank you YTC for such a wonderful outing. This was my first camping in India n I totally loved it. It was very well organised. Tents n sleeping bags were so clean.</q>
+                         <!-- <p class="author">- Swetha, UP, India</p>-->
+                        </div>
+                        
+                        <div class="mySlides">
+                            <div class="reviewer">
+                                <img src="icons/img_avatar3.png" alt="Avatar" class="avatar">Mahesh, Mumbai, India 
+                            </div>
+                          <br>                                                        
+                          <q>Many thanks to Team for giving me such a memorable FIRST TREK in my life. I've never seen Kodaikanal so beautiful like you have shown us.</q>
+                          
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        
+                    </div>
+                        
+                        <div class="dot-container">
+                          <span class="dot" onclick="currentSlide(1)"></span> 
+                          <span class="dot" onclick="currentSlide(2)"></span> 
+                          <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div> 
+                    <br>
+    
+                    <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+                        
+                        function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                        }
+                        
+                        function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                        }
+                        
+                        function showSlides(n) {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            var dots = document.getElementsByClassName("dot");
+                            if (n > slides.length) {
+                                slideIndex = 1
+                            }    
+                            if (n < 1) {
+                                slideIndex = slides.length
+                            }
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                            }
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";  
+                            dots[slideIndex-1].className += " active";                           
+                        }
+                    </script>                    
+                </div>
+                 <section class="what_happens_here_about">
+                    <div class="what_happens_here_heading">
+                        <div class="what_happens_here_title">
+                            CAMPER TESTIMONIALS
+                            <img src="icons/review_icon.jpg">
+                            <br>   
+                        </div>
+                    </div>
+                    <br><br>
+                    <p class="what_happens_here_content">
+                        Relax n Enjoy !!  
+                        You'll feel great with us.
+                    </p>
+                    
+                    <br><br><br><br>
+                    <div class="explore">
+                        <span class="wrapper">
+                            <div class="link_wrapper">
+                                <a href="https://www.facebook.com/tentntrek/reviews">Make Your Mark</a>
+                                
+                            </div>
+                        </span>    
+                    </div>
+                    
+                </section>
+            </section>  
+            
+        <div class="parallax"></div>
+        
+        <span id="socialmedia">
+            <ul>
+                <li><a href="https://https://www.facebook.com/tentntrek/" target="_blank"><i class="fab fa-facebook-f icon"></i></a></li>
+                <li><a href="https://twitter.com/tentntrek?lang=en/" target="_blank"><i class="fab fa-twitter icon"></i></a></li>
+                <li><a href="https://in.linkedin.com/company/tent-n-trek/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
+                <li><a href="https://www.instagram.com/tentntrek/?hl=en/" target="_blank"><i class="fab fa-instagram icon"></i></a></li>
+                <li><a href="https://chat.whatsapp.com/FJGvy3p4RtKKXneGMmnS6f?fbclid=IwAR0ZHpqpRn0lFN6HKVtHLuKE1PULylQSG4droFFG_G0X5qeDJA8EqOUECs4"><i class="fab fa-whatsapp icon" target="_blank"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCkyG4QzVK0VOHuz1yMtQvhg/videos/" target="_blank"><i class="fab fa-youtube icon"></i></a></li>
+                <li><a href="https://in.pinterest.com/tentandtrek/"><i class="fab fa-pinterest icon" target="_blank"></i></a></li>
+            </ul>  
+            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+            </script>    
+
+        </span>
+        
+    </body>
+</html>
+

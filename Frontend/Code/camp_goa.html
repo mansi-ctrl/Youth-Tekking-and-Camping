@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>
+    YTC
+    </title>    
+    <link rel = "icon"  href="icons/camping-tent.png" type = "image/x-icon"> 
+    <link rel="stylesheet" type="text/css" href="css_camp_goa.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
+
+</head>
+<body>
+
+    
+
+   <nav class="menu">
+          <div class="ytc_title">
+                <span class="ytc_title_content"><H2> YOUTH TREKKING & CAMPING </H2></span>
+                <span class="ytc_title_content"><H2> +91 9876543210</H2></span>     
+
+            </div>
+         <hr color="white" width="100%" size="0.025pt" align="center">  
+        <ol>
+            <li class="menu-item"><a href="index.html"><img src="icons/icon_menu_home.png" style="height: 25%; width: 25%;">  Home</a></li>
+            <li class="menu-item"><a href="aboutus.html"><img src="icons/icon_menu_aboutus.png" style="height: 25%; width: 25%;">  About Us</a></li>
+            <li class="menu-item">
+              <a href="ouractivities.html"><img src="icons/icon_menu_activities.png" style="height: 25%; width: 25%;">  Our Activities</a>
+              <ol class="sub-menu">
+                <li class="menu-item"><a href="ouractivities.html#camping">Camping</a></li>
+                <li class="menu-item"><a href="ouractivities.html#bonfire">Bonfire</a></li>
+                <li class="menu-item"><a href="ouractivities.html#hiking">Hiking</a></li>
+                <li class="menu-item"><a href="ouractivities.html#rafting">Rafting</a></li>
+                <li class="menu-item"><a href="ouractivities.html#biking">Biking</a></li>
+                <li class="menu-item"><a href="ouractivities.html#scubadiving">Scuba-Diving</a></li>
+                <li class="menu-item"><a href="ouractivities.html#forestwalks">Forest Walks</a></li>
+                <li class="menu-item"><a href="ouractivities.html#paragliding">Paragliding</a></li>
+              </ol>
+            </li>
+            <li class="menu-item">
+              <a href="ourcamps.html"><img src="icons/icon_menu_trips.png" style="height: 25%; width: 25%;">  Our Camps</a>
+              <ol class="sub-menu">
+                <li class="menu-item"><a href="ourcamps.html#camp_forest">Forest Camp</a></li>
+                <li class="menu-item"><a href="ourcamps.html#camp_farm">Farm Camp</a></li>
+                <li class="menu-item"><a href="ourcamps.html#camp_beach">Beach Camp</a></li>
+                 <li class="menu-item"><a href="ourcamps.html#camp_mountain">Mountain Camp</a></li>
+              </ol>
+            </li>
+            <li class="menu-item"><a href="blog.html"><img src="icons/icon_menu_blog.png" style="height: 25%; width: 25%;">Blog</a></li>
+            <li class="menu-item"><a href="gallery.html"><img src="icons/icon_menu_gallery.png" style="height: 25%; width: 25%;">Gallery</a></li>
+            <li class="menu-item">
+            <div class="loginbutton">
+                <div class="loginbuttoncenter">
+
+                    <button class="btn">
+                        <script type="text/javascript">
+                            function pop(div) {
+                                document.getElementById(div).style.display = 'block';
+                            }
+                            function hide(div) {
+                                document.getElementById(div).style.display = 'none';
+                            }
+                            //To detect escape button
+                            document.onkeydown = function(evt) {
+                                evt = evt || window.event;
+                                if (evt.keyCode == 27) {
+                                    hide('popDiv');
+                                }
+                            };
+                        </script>
+                        <style>
+                        #popup {
+                            width: 300px;
+                            height: 200px;
+                            position: absolute;
+                            color: #000000;
+                            background-color: #ffffff;
+                            /* To align popup window at the center of screen*/
+                            top: 50%;
+                            left: 50%;
+                            margin-top: -100px;
+                            margin-left: -150px;
+                        }
+                        </style>
+                        <a href="#" onClick="pop('www.google.com')">    
+                            <span>SIGN IN</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            </li>
+        </ol>     
+    </nav>
+
+    <hr color="white" width="100%" size="0.025pt" align="center"> 
+    
+    <div class="campheading">
+        <div class=campheadingcontent>            
+            <div class="campsmalltitle">
+                Beach Camp & Backpacking to
+            </div>
+
+            <div class="campbigtitle">
+                GOA
+            </div>
+        </div>
+        <div class="campbrief">
+           
+            <!-- Price -->
+            <div class="campdetail" id="campprice">        
+                <div class="campimgcard">
+                    <img src="icons/camp_price.png">
+                </div>
+                <div class="campdetailcard">
+                    <h3 class="h4"><strong>Price</strong></h3>
+                    <p>₹6999</p>
+                </div>
+            </div>  
+            
+            <!-- Duration -->
+            <div class="campdetail">        
+                <div class="campimgcard">
+                    <img src="icons/camp_daysnight.png">
+                </div>
+                <div class="campdetailcard">
+                    <h3 class="h4"><strong>Duration</strong></h3>
+                    <p>8 days / 7 nights</p>
+                </div>
+            </div>  
+            
+            <!-- Difficulty -->
+            <div class="campdetail">        
+                <div class="campimgcard">
+                    <img src="icons/camp_difficulty.png">
+                </div>
+                <div class="campdetailcard">
+                    <h3 class="h4"><strong>Difficulty</strong></h3>
+                    <p>Moderate</p>
+                </div>
+            </div>    
+           
+            <!-- Age -->
+            <div class="campdetail">        
+                <div class="campimgcard">
+                    <img src="icons/camp_age.png">
+                </div>
+                <div class="campdetailcard">
+                    <h3 class="h4"><strong>Age</strong></h3>
+                    <p>15-20 yrs</p>
+                </div>
+            </div>  
+            
+            <!-- Max Altitude -->
+            <div class="campdetail">        
+                <div class="campimgcard">
+                    <img src="icons/camp_altitude.png">
+                </div>
+                <div class="campdetailcard">
+                    <h3 class="h4"><strong>Max Altitude</strong></h3>
+                    <p>3,829 ft</p>
+                </div>
+            </div>  
+        </div>
+                
+        
+    </div>
+    
+    <div class="parallax"></div> 
+    
+    <main class ="banner">
+      
+            <div class="clouds">                
+                <img src="icons/cloud3.png" style="--i:3;">
+                <img src="icons/cloud1.png" style="--i:1;">     
+            </div>     
+          <div class="camp1_2">
+            <div class="campbig">
+                <h1>₹6999<br>ONLY</h1>
+            </div>
+
+            <div class="campdescription">
+                <div class="camptitle">
+                    Backpacking To Goa
+                </div>
+                <br><br>
+                Goa is definitely the best tourist place for India. "The pearl of the east," Goa is known for its Gothic churches, crumbling forts, palm-fringed beaches, coconut groves, ferry rides, bubbly folk music… the list is endless! With its 131-km-long coastline, Goa is an important locale in every tourist's itinerary.
+                <br><br>
+                Trip to Goa, driving through beaches, forests to explore exotic locations by our SUV for 7 days , yes its backpacking road trip. Sounds like your Cup of Tea? We are foodies and yes we are adventure freaks. We are not gonna book a lodge or star hotels but yes we carry our tents and sleeping bags and yes we gonna roll in our SUV.
+                <br><br>
+                Bucket list : boating, paragliding, scuba-diving, cruise, camping everywhere are in our list too.
+                <br>                
+            </div>
+        </div>
+        
+    </main>         
+ 
+    <div class="parallax"></div> 
+
+    
+    <!-- partial:index.partial.html -->
+    <div class="container">
+        <h1 class="title">Timeline</h1>
+        <div class="timeline">
+            <div class="timeline-nav">
+                <div class="timeline-nav__item">Day 1</div>
+                <div class="timeline-nav__item">Day 2</div>
+                <div class="timeline-nav__item">Day 3</div>
+                <div class="timeline-nav__item">Day 4</div>
+                <div class="timeline-nav__item">Day 5</div>
+                <div class="timeline-nav__item">Day 6</div>
+                <div class="timeline-nav__item">Day 7</div>
+                <div class="timeline-nav__item">Day 8</div>
+
+            </div>
+
+            <div class="timeline-wrapper">
+              <div class="timeline-slider">
+                  
+                <!-- DAY 1 -->
+                <div class="timeline-slide" style="background-image: url(icons/Camp_1/camp1_day_1.jpg)">      <span class="timeline-day">Day 1</span> 
+                    <div class="timeline-slide__content">
+                    <h4 class="timeline-title">Arrival to Goa!</h4>
+                    <hr color="orange" width="100%" size="0.05pt" align="center">  
+                    <p class="timeline-text">Get ready for that special welcome. Arrival at the Goa station is planned. As this is the first day, we take adequate arrangements so that you get adequate rest for the day that is deliberately kept free for leisure.</p>
+                  </div>
+                </div>
+                
+                <!-- DAY 2 -->
+                <div class="timeline-slide" style="background-image: url(icons/Camp_1/camp1_section_1.jpg)">      <span class="timeline-day">Day 2</span>
+                  <div class="timeline-slide__content">
+                    <h4 class="timeline-title">Beach Time!</h4>
+                      <hr color="orange" width="100%" size="0.05pt" align="center">  
+                    <p class="timeline-text">Let’s get deeply acquainted with Goa. This day is kept for flying to Goa. With exotic tropical beach destinations, we make sure that on this day, we make you walk around the beaches of Goa.</p>
+                  </div>
+                </div>
+                  
+                <!-- DAY 3 -->
+                <div class="timeline-slide" style="background-image: url(icons/Camp_1/camp1_day_3.jpg)">      <span class="timeline-day">Day 3</span>
+                  <div class="timeline-slide__content">
+                    <h4 class="timeline-title">Sightseeing at Panjim</h4>
+                      <hr color="orange" width="100%" size="0.05pt" align="center">  
+                    <p class="timeline-text">Sightseeing of Panjim at your disposal. This day is kept especially for the purpose of sightseeing tour of Panjim. You get to witness its glorious beauty marked with beautiful churches and cathedrals.</p>
+                  </div>
+                </div>
+                  
+                <!-- DAY 4 -->
+                <div class="timeline-slide" style="background-image: url(icons/Camp_1/camp1_day_4.webp)">      <span class="timeline-day">Day 4</span>
+                  <div class="timeline-slide__content">
+                    <h4 class="timeline-title">The Tropical Paradise!</h4>
+                      <hr color="orange" width="100%" size="0.05pt" align="center">  
+                    <p class="timeline-text">Let’s get ready for that tropical fun. This special day is kept at your discretion to enjoy in the tropical paradise, an inevitable part of Goa.</p>
+                  </div>
+                </div>
+                  
+                <!-- DAY 5 -->
+                <div class="timeline-slide" style="background-image: url(icons/Camp_1/camp1_day_5.jpg)">      <span class="timeline-day">Day 5</span>
+                  <div class="timeline-slide__content">
+                    <h4 class="timeline-title">Beaches... Beaches... Beaches...</h4>
+                      <hr color="orange" width="100%" size="0.05pt" align="center">  
+                    <p class="timeline-text">Enjoy on the pristine beaches. On this day, we make sure that you get ample of time to relax on the pristine beaches of Goa. In fact, this day become special as you take adequate rest on the beaches of Goa.</p>
+                  </div>
+                </div>
+                  
+                <!-- DAY 6 -->
+                <div class="timeline-slide" style="background-image: url(icons/Camp_1/camp1_day_6.jpg)">      <span class="timeline-day">Day 6</span>
+                  <div class="timeline-slide__content">
+                    <h4 class="timeline-title">Surrounded by water!</h4>
+                      <hr color="orange" width="100%" size="0.05pt" align="center">  
+                    <p class="timeline-text">Pack your bags for the boating and cruises. Entire day to be spent well travelling between the waters.  Take a boat cruise on Mandovi River and enjoy loads of fun.</p>
+                  </div>
+                </div>
+                  
+                <!-- DAY 7 -->
+                <div class="timeline-slide" style="background-image: url(icons/Camp_1/camp1_day_7.jpg)">      <span class="timeline-day">Day 7</span>
+                  <div class="timeline-slide__content">
+                    <h4 class="timeline-title">Your day! Create your own plan</h4>
+                      <hr color="orange" width="100%" size="0.05pt" align="center">  
+                    <p class="timeline-text">Have loads of fun and frolic. Well, we make you free on this day and leave it on you to explore the place as per your discretion and convenience. The whole day is kept free to enjoy loads of fun and frolic.</p>
+                  </div>
+                </div>
+                  
+                <!-- DAY 8 -->
+                <div class="timeline-slide" style="background-image: url(icons/Camp_1/camp1_day_8.jpg)">      <span class="timeline-day">Day 8</span>
+                  <div class="timeline-slide__content">
+                    <h4 class="timeline-title">Bag pack!</h4>
+                      <hr color="orange" width="100%" size="0.05pt" align="center">  
+                    <p class="timeline-text">Get ready for those sweet memories. On this day, as you have to board the flight back, and we make adequate arrangements. Evening is kept at leisure for you to enjoy loads of fun and frolic.</p>
+                  </div>
+                </div>
+                  
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js'></script><script  src="./script.js"></script>
+
+
+ 
+    <div class="parallax"></div> 
+    
+    <!-- Tab links -->
+    <div class="campdetails">
+   
+        <div class="campdetails_tab">
+           
+            <span id="campdetails_menucontent">
+                <div id="Inclusion" class="campdetails_tabcontent">
+                    <h3>Tour Inclusions</h3>
+                    <hr color="orange" width="90%" size="5px" align="center">
+                    <table style="width:100%">
+                        <tr>
+                            <td class="measureicon"><img src="icons/icons/icon_camp_food.png"></td>
+                            <td class="measure">Food (Breakfast, Lunch & Dinner) at Campsite</td>                                               
+                        </tr>
+                        <tr>
+                            <td class="measureicon"><img src="icons/icons/icon_camp_accomodation.png"></td>
+                            <td class="measure">Accommodation in sharing Basis (Tent + Sleeping Bag)</td>                         
+                        </tr>
+                        <tr>
+                            <td class="measureicon"><img src="icons/icons/icon_camp_first-aid.png"></td>
+                            <td class="measure">First Aid support</td>
+                        </tr>
+                        <tr>
+                            <td class="measureicon"><img src="icons/icons/icon_camp_tax.png"></td>
+                            <td class="measure">5% GST</td>
+                        </tr> 
+                        <tr>
+                            <td class="measureicon"><img src="icons/icons/icon_camp_certificate.png"></td>
+                            <td class="measure">Tour completion certificate</td>
+                        </tr>
+                    </table>
+                    
+                    
+                </div>
+
+                <div id="Exclusion" class="campdetails_tabcontent">
+                    <h3>Tour Exclusions</h3>
+                    <hr color="orange" width="90%" size="5px" align="center">
+                    <table style="width:100%">
+                        <tr>
+                            <td>
+                                <img src="icons/icons/icon_camp_food.png">
+                                Food (Breakfast, Lunch & Dinner) at Campsite</td>                                               
+                        </tr>
+                        <tr>
+                            <td>
+                                 <img src="icons/icons/icon_camp_accomodation.png">
+                                Accommodation in sharing Basis (Tent + Sleeping Bag)</td>                         
+                        </tr>
+                        <tr>
+                            <td>
+                                 <img src="icons/icons/icon_camp_first-aid.png">
+                                First Aid support</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="icons/icons/icon_camp_tax.png">
+                                5% GST</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="icons/icons/icon_camp_certificate.png">
+                                Tour completion certificate</td>
+                        </tr>
+                    </table>
+                    
+                </div>
+
+                <div id="Things" class="campdetails_tabcontent">
+                       <h3>Things to Carry</h3>
+                    
+                    <hr color="orange" width="90%" size="5px" align="center">
+                                        
+                    
+                    <table class="things_to_carry">           
+                        
+                        <tr>                       
+                             <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_luggage.png">
+                                     <div class="thingname">Luggage</div>
+                                     <div class="thingdetail">Backpack to carry<br> your personal belongings</div>
+                                </div>
+                            </td>
+                         
+                          
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_mosquito.png">
+                                     <div class="thingname">Resisent</div>
+                                     <div class="thingdetail">Insect or mosquito repellent</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_water.png">
+                                     <div class="thingname">Water</div>
+                                     <div class="thingdetail">Water Bottle <br>minimum (2 liters)</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_cream.png">
+                                     <div class="thingname">Skin Care</div>
+                                     <div class="thingdetail">Carry sunscreen and<br> other skin care proucts</div>
+                                </div>
+                            </td>
+                            
+                        </tr>     
+                        
+                        <tr>                                                   
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_raincoat.png">
+                                     <div class="thingname">Raincoat</div>
+                                     <div class="thingdetail">Raincoat <br>(optional in case of rains)</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_identitiycard.png">
+                                     <div class="thingname">Identity</div>
+                                     <div class="thingdetail">Carry Identification card<br>- Govt recognized one</div>
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_jacket.png">
+                                     <div class="thingname">Safety Dress</div>
+                                     <div class="thingdetail">Weather Jacket <br>(It’ll get cold at night)</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_flashlight.png">
+                                     <div class="thingname">Safety Lights</div>
+                                     <div class="thingdetail">Emergency torch lights <br>and other lighting materials</div>
+                                </div>
+                            </td>
+                        </tr>                         
+                        
+                        <tr>                       
+                             <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_snacks.png">
+                                     <div class="thingname"> Foods</div>
+                                     <div class="thingdetail">Food/Snacks: dry fruits, <br> energy bars, dates, <br> cashew, citrus fruits,etc.</div>
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_shoes.png">
+                                     <div class="thingname">Shoes & Socks</div>
+                                     <div class="thingdetail">Trekking shoes with <br> good grip and <br> two pairs of socks</div>
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_dresses.png">
+                                     <div class="thingname">Dresses</div>
+                                     <div class="thingdetail">Dress change for 7 days, <br> avoid jeans and <br> plastic bag <br> to keep wet clothes</div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="thing">
+                                    <img src="icons/icons/icon_camp_medicine.png">
+                                     <div class="thingname">Medicine</div>
+                                     <div class="thingdetail">Personal medicines <br> if you use any <br> (First-aid kit <br> would be with host)</div>
+                                </div>
+                            </td>
+                            
+                            
+                        </tr>                         
+                        
+                        
+                    </table>
+                </div>
+
+                <div id="TandC" class="campdetails_tabcontent">
+                    <h3>Terms and Conditions</h3>
+                    
+                    <hr color="orange" width="90%" size="5px" align="center">
+                    
+                    <h2>Discipline</h2>
+                    This is an Adventure Camp and not a leisure tour, so we expect a high level of discipline
+                    
+                    <table style="width:100%">                       
+                        <tr>
+                            <td>
+                                 <img src="icons/icons/icon_camp_discipline.png">
+                               Participants will have to follow the instructions clearly given by the volunteer/guide, Misbehave/Arguing with the volunteers/guide/instructors will be considered as disciplinary issues
+                            </td>                         
+                        </tr>
+                        <tr>
+                            <td>
+                                 <img src="icons/icons/icon_camp_addiction.png">
+                               Smoking, Alcohol, Tobacco & Abusive Language are strictly prohibited and if anyone found a suspect in such cases, the participation will be terminated and no further service/return traveling/refund will be offered then after</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="icons/icons/icon_camp_boysgirls.png">
+                                Accommodation & Sanitary Facilities for Girls & Boys are separate</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="icons/icons/icon_camp_punctuality.png">
+                                Punctuality is taken as a serious matter</td>
+                        </tr>
+                    </table>
+                    <h2>Schedule Changes</h2>
+                    <table style="width:100%">               
+                        <tr>
+                            <td>
+                                <img src="icons/icons/icon_camp_food.png">
+                               In case of unforeseen conditions, the schedule/itinerary can be modified/canceled</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="icons/icons/icon_camp_rights.png">
+                               Invincible reserves all rights to cancel/shorten/modify the itinerary, and the final decision is authorized with the trustee team</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div id="Covid" class="campdetails_tabcontent">
+                    <h3>Covid Measures</h3>
+                    
+                    <hr color="orange" width="90%" size="5px" align="center">
+                    <br>
+                   <ol>
+                       <li>Using Face Mask/Face Cover is compulsory</li>
+                       <li>Aarogya Setu App on your mobile phone is mandatory, before commencing Bus journey & during the camping duration. </li>
+                       <li>Maintain Social Distancing and Wash Hands Frequently, Avoid handshakes with other participants and staff members. </li>
+                       <li>Must Carry personal hand sanitisers to use during activities/camping </li>
+                       <li>The Participants must carry personal items for safe camping like Plate/lunch box for meals, mug, spoons, water bottle. </li>
+                       <li>Try to avoid touching at any place like handlebars, supporting bars in a bus, automated water taps, sanitiser machines, etc. </li>
+                       <li>Use dustbins for garbage and mask disposal. </li>
+                    </ol> 
+                    
+                    <table>
+                        <tr>
+                            <td class="covidmeasure1">
+                                <h2>Campsite & Washroom Area</h2>
+                                <ol>
+                                    <li>The whole campsite to be cleaned and sanitised daily.</li>
+                                    <li>Close fall ins, campfire, Musical Evenings to be avoided.</li>
+                                    <li>Every participant would pass through a temperature test to ensure the safety and spread of infection.</li>
+                                </ol>
+                            </td>
+                            
+                            <td class="covidmeasure2">
+                                <h2>Tents</h2>
+                                <ol>
+                                    <li>All the tents would be sanitised properly before the commencement of the camp and once checked out, they will not be allocated for at least 5 days to anyone.</li>
+                                    <li>1 person per tent would be allocated if he is a solo traveller. If family members requests for a separate tent then will be allocated</li>
+
+                                </ol>
+                            </td>
+                            
+                            <td class="covidmeasure3">
+                                <h2>Kitchen and Dining</h2>
+                                <ol>
+                                    <li>Masks and Hand gloves are compulsory for the cooking staff</li>
+                                    <li>Participants will be advised carrying personal plates/lunchboxes, spoon & mug to stay contact-free.</li>
+                                    <li>Participants are encouraged to enjoy meals in open areas and if the dining area is used, then keep a minimum of 6 feet distance between 2 people.</li>
+                                    <li>Kitchen and Dining area to be cleaned and sanitised frequently, at least twice a day.</li>    
+                                </ol> 
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    
+                   
+                    
+                           
+                </div>
+
+                <div id="Cancel" class="campdetails_tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Cancellation would be granted by the Project Manager or Higher Authorities on receiving cancellation request through registered mail ID only. The cancellation Amount will be counted on total fees only.
+
+                    The refund amount will be paid in 10 to 15 working days directly in your account.
+
+                    Before more than 40 days of expedition, 10%
+                    Before 21 to 40 days of expedition, 25%
+                    Before 11 to 20 days of expedition, 40%
+                    Before 1 to 10 days of expedition, 60%
+                    In the last 24 hours of Departure, 90%
+                    </p>
+                </div>
+            </span>
+            
+            <span id="campdetails_menu">
+                <button class="campdetails_tablinks" onclick="openCampDetailTab(event, 'Inclusion')" id="defaultOpen">
+                    <img src="icons/icons/icon_camp_plus.png" class="campdetails_icon">Inclusion
+                </button>
+
+                <button class="campdetails_tablinks" onclick="openCampDetailTab(event, 'Exclusion')">
+                    <img src="icons/icons/icon_camp_minus.png" class="campdetails_icon">Exclusion
+                </button>
+
+                <button class="campdetails_tablinks" onclick="openCampDetailTab(event, 'Things')">
+                    <img src="icons/icons/icon_camp_carry.png" class="campdetails_icon">Things <br> to carry
+                </button>
+
+                <button class="campdetails_tablinks" onclick="openCampDetailTab(event, 'TandC')">
+                     <img src="icons/icons/icon_camp_terms.png" class="campdetails_icon">
+                    Terms & <br> Conditions
+                </button>
+
+                <button class="campdetails_tablinks" onclick="openCampDetailTab(event, 'Covid')">
+                     <img src="icons/icons/icon_camp_covid.png" class="campdetails_icon">
+                    Covid <br>Measures
+                </button>
+
+                <button class="campdetails_tablinks" onclick="openCampDetailTab(event, 'Cancel')">
+                     <img src="icons/icons/icon_camp_cancel.png" class="campdetails_icon">
+                    Cancellation <br>Policy
+                </button>
+            </span>            
+            <script>
+                    function openCampDetailTab(evt, cityName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName("campdetails_tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("campdetails_tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                       document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }
+
+                    // Get the element with id="defaultOpen" and click on it
+                    document.getElementById("defaultOpen").click();
+                </script>
+        </div>   
+    </div>
+        
+    <div class="parallax"></div> 
+    <div class="attractions">
+        <div class="attractions_heading">
+            <div class="attractions_title">
+                ATTRACTIONS at GOA 
+                <img src="icons/icons/icon_camp_attractions.png">
+                <br>
+            </div>   
+        </div>
+        <div id="attractions_slideshow">
+            <input type="radio" name="slider" id="s1">
+            <input type="radio" name="slider" id="s2">
+            <input type="radio" name="slider" id="s3" checked>
+            <input type="radio" name="slider" id="s4">
+            <input type="radio" name="slider" id="s5">
+
+            <label for="s1" id="slide1">
+                <h3>Old Goa</h3>
+                <h4>The former Portuguese capital of the region before Panjim, Old Goa is a UNESCO World Heritage Site that’s home to several magnificent churches and cathedrals.</h4>
+            </label>
+            <label for="s2" id="slide2">
+                <h3>ANJUNA’S FLEA MARKET</h3>
+                <h4>Located near the Anjuna beach, this famous daytime market on Wednesdays has a mix of Kashmiri, Gujarati and Tibetan shops, stalls offering clothes and jewellery designed by Goa's foreign denizens and an eclectic range of food outlets</h4>
+            </label>
+            <label for="s3" id="slide3">
+                <h3>Silent Noise</h3>
+                <h4>In Goa’s headphone parties, everyone literally dances to their own tunes.</h4>
+            </label>
+            <label for="s4" id="slide4">
+                <h3>PALOLEM BEACH</h3>
+                <h4>Surrounded by rocky hills at both ends, Palolem Beach is a crescent-shaped beach in Canacona, south Goa which is also one of the prettiest in the state.</h4>
+            </label>
+
+
+            <label for="s5" id="slide5">
+                <h3>Goa Carnival</h3>
+                <h4>Held in the second week of February, the annual Goa Carnival celebrates the arrival of spring.</h4>
+            </label>
+        </div>
+    </div>
+
+    <div class="parallax"></div> 
+        <!-- Container for the image gallery -->
+    <div class="activities">
+     
+        <table>
+            <tr>
+                <td class="bigimg">
+                    <div class="attractions_heading">
+                        <div class="attractions_title">
+                            ACTIVITIES at GOA 
+                            <img src="icons/icon_menu_activities.png">
+                            <br>
+                        </div>   
+                    </div>
+                    <div class="activity-container">
+
+                        <div class="anActivity">            
+                        <img src="icons/Camp_1/camp1_activity_baloon.jpg">
+                        </div>
+
+                        <div class="anActivity">         
+                        <img src="icons/Camp_1/camp1_activity_beachdance.jpg">
+                        </div>
+
+                        <div class="anActivity">            
+                        <img src="icons/Camp_1/camp1_activity_boating.jpg">
+                        </div>
+
+                        <div class="anActivity">            
+                        <img src="icons/Camp_1/camp1_activity_cruis.png">
+                        </div>
+
+                        <div class="anActivity">            
+                        <img src="icons/Camp_1/camp1_activity_musicalevening.png">
+                        </div>
+
+
+                        <!-- -------------------------------------->
+                        <div class="anActivity">            
+                        <img src="icons/Camp_1/camp1_activity_paragliding.webp">
+                        </div>
+                        <div class="anActivity">         
+                        <img src="icons/Camp_1/camp1_activity_scubadiving.jpg">
+                        </div>
+
+                        <div class="anActivity">            
+                        <img src="icons/Camp_1/camp1_activity_streetfood.jpg">
+                        </div>
+
+                        <div class="anActivity">            
+                        <img src="icons/Camp_1/camp1_activity_streetshopping.jpg">
+                        </div>
+
+                        <div class="anActivity">            
+                        <img src="icons/Camp_1/camp1_activity_turtlenesting.webp">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                        <div class="caption-container">
+                        <p id="caption"></p>
+                        </div>
+
+                        
+                    </div>
+                    <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+
+                        function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                        }
+
+                        function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                        }
+
+                        function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("anActivity");
+                        var dots = document.getElementsByClassName("demo");
+                        var captionText = document.getElementById("caption");
+                        if (n > slides.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                        dots[slideIndex-1].className += " active";
+                        captionText.innerHTML = dots[slideIndex-1].alt;
+                        }
+                    </script>
+                </td>
+                
+                <td class="smallimg">
+                    <div class="row" id="activityrow">
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_baloon.jpg" onclick="currentSlide(1)" alt="Inside Balloon">
+                        </div>
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_beachdance.jpg" onclick="currentSlide(2)" alt="Beach Dance">
+                        </div>                                     
+                    </div>
+
+                    <div class="row" id="activityrow">
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_boating.jpg" onclick="currentSlide(3)" alt="Boating">
+                        </div>
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_cruis.png" onclick="currentSlide(4)" alt="Ship Cruise">
+                        </div>                                       
+                    </div>
+
+                    <div class="row" id="activityrow">
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_musicalevening.png" onclick="currentSlide(5)" alt="Musical Evening">
+                        </div>   
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_paragliding.webp" onclick="currentSlide(6)" alt="Para-gliding">
+                        </div>
+                    </div>
+
+                    <div class="row" id="activityrow">
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_scubadiving.jpg" onclick="currentSlide(7)" alt="Scuba Diving">
+                        </div>    
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_streetfood.jpg" onclick="currentSlide(8)" alt="Street Food">
+                        </div>            
+                    </div>
+
+                    <div class="row" id="activityrow">                            
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_streetshopping.jpg" onclick="currentSlide(9)" alt="Street-Shopping">
+                        </div>    
+                        <div class="column" id="activitycolumn">
+                          <img class="demo cursor" src="icons/Camp_1/camp1_activity_turtlenesting.webp" onclick="currentSlide(10)" alt="Turtle Nesting">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        
+        </table>
+        
+    
+    
+    </div>
+    
+    <div class="parallax"></div> 
+    <div class="attractions_heading">
+        <div class="attractions_title">
+            GOA DIARIES!
+            <img src="icons/icons/icon_camp_video.png">
+            <br>
+        </div>   
+    </div>
+    <p class="videoline">  Explore our Goa trips and experiences of our adventure freaks!</p>
+    <div class="video_section">
+        <iframe height="200" width="350"
+               src="https://www.youtube.com/embed/jU7ZyViNu2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+
+
+        <iframe height="200" width="350"
+               src="https://www.youtube.com/embed/g8CakrnVPk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        
+        <iframe height="200" width="350"
+                src="https://www.youtube.com/embed/gtqGMy8M4wE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+
+
+    </div>
+   <div class="parallax"></div> 
+    
+</body>
+</html>
